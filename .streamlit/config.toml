@@ -5,12 +5,3 @@ secondaryBackgroundColor = "#1a1a1a"
 textColor = "#ffffff"
 primaryColor = "#ff4b4b"
 
-[theme]
-base = "dark"
-backgroundColor = "#0f0f0f"
-secondaryBackgroundColor = "#1a1a1a"
-textColor = "#ffffff"
-primaryColor = "#ff4b4b"
-
-[client]
-toolbarMode = "minimal"
