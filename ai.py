@@ -72,6 +72,6 @@ def get_ai_response(messages, model, temperature=0.7):
     stream=True
   )
   for chunk in stream:
-    content = chunk.choices[0].delts.content
+    content = chunk.choices[0].delta.content
     if content:
       yield content
